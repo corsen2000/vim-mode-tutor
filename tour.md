@@ -92,3 +92,15 @@ Fix Me - This is a
          nice little
          intruder alert
          paragraph.
+
+## Jumping to a specific line in the file
+* 1G -> jump to line 1 of the file
+* 5G -> jump to line 5 of the file
+
+Practice jumping around various lines of the file
+
+## Jumping to the first line of a file
+* gg -> jump to the first line of the file
+
+## Jumping to the last line of a file
+* G -> jump to the last line of the file 
