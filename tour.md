@@ -79,3 +79,16 @@ Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick quick quick brown fox jumped over the lazy lazy lazy dog.
+
+## Deleting a line
+* dd -> delete a line
+
+Sample - This is a 
+         nice little
+         paragraph.
+
+Fix Me - This is a
+         intruder alert
+         nice little
+         intruder alert
+         paragraph.
