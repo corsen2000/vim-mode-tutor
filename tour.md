@@ -55,11 +55,27 @@ Fix Me - The quick quick brown fox fox jumped over the the lazy lazy dog.
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
 
-## Deleting with a command and a mother
-* d motion
+## Deleting with a command and a motion
+* d m
 * d is the command
-* motion can be
+* m is the motion and can be
   * w - until the start of the next word
   * e - until the end of the current word
   * $ - to the end of the line
 * all motions can be used without a command to move the cursor
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick quick brown fox fox jumped over the the lazy lazy dog.
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
+
+## Adding a count to a motion
+* c d w
+* c is the count
+* d is the motion, in this case delete
+* m is the motion, in this case word
+* cdw will delete c number of words
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick quick quick brown fox jumped over the lazy lazy lazy dog.
