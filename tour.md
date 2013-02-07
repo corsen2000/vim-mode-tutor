@@ -131,3 +131,9 @@ Fix Me - Tha qubck brcwn fdx eumped fover thg hazy dig.
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - Tha quiaa browa faa jumpaa ovaa taa laaa doaa
 
+## Matching pairs
+* % -> jumped to the matching character
+* works for ) ] }
+
+( Here is a [sample] of {what you can do} )
+
