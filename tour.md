@@ -104,3 +104,16 @@ Practice jumping around various lines of the file
 
 ## Jumping to the last line of a file
 * G -> jump to the last line of the file 
+
+## Put
+* p -> put copied text at the cursor location
+* np -> put copied text n times at the cursor location
+* dd -> deleting a line copies the text such that it can be put
+
+Arrange the lines by deleting and putting.
+
+1) First Line
+4) Forth Line
+2) Second Line
+5) Fifth Line
+3) Third Line
