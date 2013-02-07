@@ -117,3 +117,10 @@ Arrange the lines by deleting and putting.
 2) Second Line
 5) Fifth Line
 3) Third Line
+
+## Replace
+* rx -> replace the character at the cursor with x
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - Tha qubck brcwn fdx eumped fover thg hazy dig.
+
