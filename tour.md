@@ -122,7 +122,7 @@ Arrange the lines by deleting and putting.
 * rx -> replace the character at the cursor with x
 
 Sample - The quick brown fox jumped over the lazy dog.
-Fix Me - Tha qubck brcwn fdx eumped fover thg hazy dig.
+Fix Me - Tha qubck brcwn fdx eumped fver thg hazy dig.
 
 ## Change
 * ce -> change until the end of the word
