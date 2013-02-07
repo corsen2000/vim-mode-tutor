@@ -124,3 +124,10 @@ Arrange the lines by deleting and putting.
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - Tha qubck brcwn fdx eumped fover thg hazy dig.
 
+## Change
+* ce -> change until the end of the word
+* works with other motions as well
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - Tha quiaa browa faa jumpaa ovaa taa laaa doaa
+
