@@ -6,11 +6,13 @@ that you are starting in command mode.  Hit escape at any time to enter command
 mode.  Hitting escape when already in command mode will cancel any started 
 command and leave you in a fresh command mode.
 
-## Follow the pattern
+## Basic movement
 * h -> left
 * j -> down
 * k -> up
 * l -> right
+
+Follow the pattern.
 
 start                                                  
   o     o o o o o o o o o           o o o o o o o o o  
@@ -20,6 +22,37 @@ start
   o             o       o           o   o              
   o o o o o o o o       o o o o o o o   o              
                                        End
+
+## Moving vertically
+* H -> top of the screen
+* M -> middle of the screen
+* L -> bottom of the screen
+
+Try using these commands to move around the screen.  Keep in mind these commands
+move around the current visible screen area, not the file.
+
+## Moving horizontally
+* 0 -> start of the line
+* ^ -> first none blank character of the line
+* $ -> last character of the line
+
+Try using these commands on the line below.
+
+    This line will help try out the 0, ^ and $ commands.  
+
+## Moving by words
+* w -> move to the beginning of the next word
+* W -> move to the beginning of the next word ignoring non space character
+
+Try moving through this setence and check-out the difference in w and W.
+
+* e -> move to the end of the next wordl
+* E -> move to the end of the next word ignoring non space character
+
+Try moving through this sentence and check-out the difference in e and E.
+
+* b -> move to the beginning of the previous word
+* B -> move to the beginning of the previous word ignoring non space characters
 
 ## Delete the extra letters in the sentence
 * x -> delete character at the cursor
