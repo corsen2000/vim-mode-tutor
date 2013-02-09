@@ -86,6 +86,14 @@ Fix Me - The quick quick brown fox fox jumped over the the lazy lazy dog.
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
 
+## Yank
+* y -> copy from the cursor to the new position given by the next command
+  * yw -> copy from the cursor to the beginning of the next word
+  * y$ -> copy from the cursor to the end of the line
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick brown fox
+
 ## Line operations
 
 Doubling a command will often apply that command to the entire line.
