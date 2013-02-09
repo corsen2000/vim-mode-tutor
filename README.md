@@ -8,5 +8,5 @@ A collection of exercises to help learn vim commands commonly found in vim mode 
 Resources / Inspiration
 -----------------------
 * vim tutor
-* (http://blog.interlinked.org/tutorials/vim_tutorial.html)[Isaac Asimov Blog]
-* (https://github.com/skilldrick/vim-exercises)[Vim Exercises]
+* [Isaac Asimov's Blog](http://blog.interlinked.org/tutorials/vim_tutorial.html)
+* [Vim Exercises](https://github.com/skilldrick/vim-exercises)
