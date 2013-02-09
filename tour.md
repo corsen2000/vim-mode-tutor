@@ -30,14 +30,25 @@ Fix Me - Thhe qquick broown foxx jumpedd ovver thee lazzy ddog..
 
 ## Insertion
 * i -> start insertion at the cursor location
+* I -> start insertion at the beginning of the line
 * Fix the sentence by inserting characters
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - Te quic bron fo jumpe oer te azy og.
 
+Fix the end of the follow line first, then the beginning.
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me -
+brown fox jumped over
+
 ## Appending
+* a -> start insertion after the cursor location
 * A -> start insertion at the end of the line
 * Finish the sentence
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The qui bro fo jump ov th la do
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick brown
@@ -148,10 +159,9 @@ Fix Me - The word is repeated 3 times
 ## Open
 * o -> create a new line below the current and switch to insert mode
 
-Sample - Use "o" to create a new line and type this sentence.
+Type the sentence between the examples.
 
-## Append
-* A -> start writing text at the end of the line
-
-Sample - The quick brown fox jumped over the lazy dog.
-Fix Me - The quick brown
+Sample -
+The quick brown fox jumped over the lazy dog.
+Sample -
+The quick brown fox jumped over the lazy dog.
