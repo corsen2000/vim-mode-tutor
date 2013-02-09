@@ -144,3 +144,8 @@ Fix Me - Tha quiaa browa faa jumpaa ovaa taa laaa doaa
 
 Sample - The word is repeated 3 times times times
 Fix Me - The word is repeated 3 times
+
+## Open
+* o -> create a new line below the current and switch to insert mode
+
+Sample - Use "o" to create a new line and type this sentence.
