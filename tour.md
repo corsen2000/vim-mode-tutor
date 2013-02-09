@@ -6,6 +6,8 @@ that you are starting in command mode.  Hit escape at any time to enter command
 mode.  Hitting escape when already in command mode will cancel any started 
 command and leave you in a fresh command mode.
 
+# Movement
+
 ## Basic movement
 * h -> left
 * j -> down
@@ -54,8 +56,11 @@ Try moving through this sentence and check-out the difference in e and E.
 * b -> move to the beginning of the previous word
 * B -> move to the beginning of the previous word ignoring non space characters
 
-## Delete the extra letters in the sentence
+# Editing
+
+## Character deletion
 * x -> delete character at the cursor
+* X -> delete the character before the cursor (backspace)
 * Fix the sentence by deleting characters
 
 Sample - The quick brown fox jumped over the lazy dog.
