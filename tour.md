@@ -149,3 +149,9 @@ Fix Me - The word is repeated 3 times
 * o -> create a new line below the current and switch to insert mode
 
 Sample - Use "o" to create a new line and type this sentence.
+
+## Append
+* A -> start writing text at the end of the line
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick brown
