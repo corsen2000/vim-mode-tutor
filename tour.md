@@ -6,7 +6,7 @@ that you are starting in command mode.  Hit escape at any time to enter command
 mode.  Hitting escape when already in command mode will cancel any started 
 command and leave you in a fresh command mode.
 
-# Movement
+# Movement (Section 1)
 
 ## Basic movement
 * h -> left
@@ -56,7 +56,7 @@ Try moving through this sentence and check-out the difference in e and E.
 * b -> move to the beginning of the previous word
 * B -> move to the beginning of the previous word ignoring non space characters
 
-# Editing
+# Editing (Section 2)
 
 ## Character deletion
 * x -> delete character at the cursor
@@ -126,6 +126,8 @@ Sample - Three times a line.
          Three times a line.
 
 Fix Me - Three times a line.
+
+# Entering Insert Mode (Section 3)
 
 ## Insertion
 * i -> start insertion at the cursor location
