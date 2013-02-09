@@ -229,6 +229,16 @@ Fix Me - Tha quiaa browa faa jumpaa ovaa taa laaa doaa
 Sample - The word is repeated 3 times times times
 Fix Me - The word is repeated 3 times
 
+## Word selection
+* iw -> inner word
+* aw -> the word such that a deletion will result in a single space between
+* iW -> inner word including any non-space character
+* aW -> the word including any non-space character such that a deletion will
+        result in a single space between
+
+This is a regular sentence, but it has some style.
+
+## Pair selection
 
 
 # Enahcing Commands
