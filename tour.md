@@ -86,13 +86,23 @@ Fix Me - The quick quick brown fox fox jumped over the the lazy lazy dog.
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
 
-## Yank
+## Yank and put
 * y -> copy from the cursor to the new position given by the next command
   * yw -> copy from the cursor to the beginning of the next word
   * y$ -> copy from the cursor to the end of the line
+* p -> put the copied text after the cursor
+* P -> put the copied text before the cursor  
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick brown fox
+
+Arrange the lines by deleting and putting.
+
+1) First Line
+4) Forth Line
+2) Second Line
+5) Fifth Line
+3) Third Line
 
 ## Line operations
 
@@ -115,7 +125,7 @@ Sample - Three times a line.
          Three times a line.
          Three times a line.
 
-Fix Me - Three times a line. 
+Fix Me - Three times a line.
 
 ## Insertion
 * i -> start insertion at the cursor location
@@ -163,19 +173,6 @@ Practice jumping around various lines of the file
 
 ## Jumping to the last line of a file
 * G -> jump to the last line of the file 
-
-## Put
-* p -> put copied text at the cursor location
-* np -> put copied text n times at the cursor location
-* dd -> deleting a line copies the text such that it can be put
-
-Arrange the lines by deleting and putting.
-
-1) First Line
-4) Forth Line
-2) Second Line
-5) Fifth Line
-3) Third Line
 
 ## Replace
 * rx -> replace the character at the cursor with x
