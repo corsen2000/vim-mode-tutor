@@ -137,3 +137,10 @@ Fix Me - Tha quiaa browa faa jumpaa ovaa taa laaa doaa
 
 ( Here is a [sample] of {what you can do} )
 
+## Visual mode
+* v -> enter visual mode which allows selection
+* y -> copy the selected text
+* p -> put copied text
+
+Sample - The word is repeated 3 times times times
+Fix Me - The word is repeated 3 times
