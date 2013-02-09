@@ -43,6 +43,8 @@ start
 * H -> top of the screen
 * M -> middle of the screen
 * L -> bottom of the screen
+* Ctrl + f -> page down (page forward)
+* Ctrl + b -> page up (page backward)
 
 Try using these commands to move around the screen.  Keep in mind these commands
 move around the current visible screen area, not the file.
