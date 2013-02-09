@@ -101,6 +101,22 @@ Doubling a command will often apply that command to the entire line.
 * dd -> deleting a line
 * yy -> copy a line
 
+Sample - This is a 
+         nice little
+         paragraph.
+
+Fix Me - This is a
+         intruder alert
+         nice little
+         intruder alert
+         paragraph.
+
+Sample - Three times a line.
+         Three times a line.
+         Three times a line.
+
+Fix Me - Three times a line. 
+
 ## Insertion
 * i -> start insertion at the cursor location
 * I -> start insertion at the beginning of the line
@@ -135,19 +151,6 @@ Fix Me - The quick brown
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick quick quick brown fox jumped over the lazy lazy lazy dog.
-
-## Deleting a line
-* dd -> delete a line
-
-Sample - This is a 
-         nice little
-         paragraph.
-
-Fix Me - This is a
-         intruder alert
-         nice little
-         intruder alert
-         paragraph.
 
 ## Jumping to a specific line in the file
 * 1G -> jump to line 1 of the file
