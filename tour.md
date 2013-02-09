@@ -1,12 +1,12 @@
 # Welcome To Vim Mode Tutor
 Vim is a powerful and popular editor.  It so popular that many other editors
 have a vim mode.  Vim mode is a subset of vim and allows you to integrate the 
-power of vim with the abilities of the other editor. This tour teaches and helps
-you practice using the features of vim that are often found in the vim mode of
-other editors.
+power of vim with the abilities of the other editor. This tour teaches you how
+to use vim mode and helps you practice using the features of vim that are often
+found in the vim mode of other editors.
 
 ## 3 modes of vim
-* command mode - used to enter commands and navigate a file
+* command mode - used to enter commands and navigate within a file
   * [escape] - enter command mode with the escape key
 * insertion mode - used to enter text
   * i - enter insertion mode (from command mode) at the cursor location
@@ -49,7 +49,7 @@ move around the current visible screen area, not the file.
 
 ## Moving horizontally
 * 0 -> start of the line
-* ^ -> first none blank character of the line
+* ^ -> first non-blank character of the line
 * $ -> last character of the line
 
 Try using these commands on the line below.
@@ -58,12 +58,12 @@ Try using these commands on the line below.
 
 ## Moving by words
 * w -> move to the beginning of the next word
-* W -> move to the beginning of the next word ignoring non space character
+* W -> move to the beginning of the next word ignoring non-space character
 
 Try moving through this setence and check-out the difference in w and W.
 
 * e -> move to the end of the next word
-* E -> move to the end of the next word ignoring non space character
+* E -> move to the end of the next word ignoring non-space character
 
 Try moving through this sentence and check-out the difference in e and E.
 
