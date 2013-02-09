@@ -48,7 +48,7 @@ Try using these commands on the line below.
 
 Try moving through this setence and check-out the difference in w and W.
 
-* e -> move to the end of the next wordl
+* e -> move to the end of the next word
 * E -> move to the end of the next word ignoring non space character
 
 Try moving through this sentence and check-out the difference in e and E.
@@ -65,6 +65,33 @@ Try moving through this sentence and check-out the difference in e and E.
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - Thhe qquick broown foxx jumpedd ovver thee lazzy ddog..
+
+## Deletion
+* d -> delete from the cursor to the new position given by the next command
+  * dw -> delete from the cursor to the beginning of the next word
+  * de -> delete from the cursor to the end of the next word
+  * d$ -> delete from the cursor to the end of the line
+  * etc...
+* Delete the extra works
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick quick brown fox fox jumped over the the lazy lazy dog.
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick quick brown fox fox jumped over the the lazy lazy dog.
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
+
+## Line operations
+
+Doubling a command will often apply that command to the entire line.
+
+* dd -> deleting a line
+* yy -> copy a line
 
 ## Insertion
 * i -> start insertion at the cursor location
@@ -90,34 +117,6 @@ Fix Me - The qui bro fo jump ov th la do
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick brown
-
-## Deleting words
-* dw -> delete the word at the cursor
-* Delete the extra works
-
-Sample - The quick brown fox jumped over the lazy dog.
-Fix Me - The quick quick brown fox fox jumped over the the lazy lazy dog.
-
-## Deleting to the end of the line
-* d$ -> delete all text that follows the cursor on the current line
-
-Sample - The quick brown fox jumped over the lazy dog.
-Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
-
-## Deleting with a command and a motion
-* d m
-* d is the command
-* m is the motion and can be
-  * w - until the start of the next word
-  * e - until the end of the current word
-  * $ - to the end of the line
-* all motions can be used without a command to move the cursor
-
-Sample - The quick brown fox jumped over the lazy dog.
-Fix Me - The quick quick brown fox fox jumped over the the lazy lazy dog.
-
-Sample - The quick brown fox jumped over the lazy dog.
-Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
 
 ## Adding a count to a motion
 * c d w
