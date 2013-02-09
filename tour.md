@@ -17,6 +17,8 @@ found in the vim mode of other editors.
   * other commands will oeprate on the selected text
   * new commands will be available in this mode
 
+
+
 # Movement (Section 1)
 
 Everything in this section can be done without leaving command mode.  If you
@@ -69,6 +71,26 @@ Try moving through this sentence and check-out the difference in e and E.
 
 * b -> move to the beginning of the previous word
 * B -> move to the beginning of the previous word ignoring non space characters
+
+## Jumping to a specific line in the file
+* 1G -> jump to line 1 of the file
+* 5G -> jump to line 5 of the file
+
+Practice jumping around various lines of the file
+
+## Jumping to the first line of a file
+* gg -> jump to the first line of the file
+
+## Jumping to the last line of a file
+* G -> jump to the last line of the file
+
+## Matching pairs
+* % -> jumped to the matching character
+* works for ) ] }
+
+( Here is a [sample] of {what you can do} )
+
+
 
 # Editing (Section 2)
 
@@ -141,6 +163,8 @@ Sample - Three times a line.
 
 Fix Me - Three times a line.
 
+
+
 # Entering Insert Mode (Section 3)
 
 ## Insertion
@@ -168,27 +192,16 @@ Fix Me - The qui bro fo jump ov th la do
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick brown
 
-## Adding a count to a motion
-* c d w
-* c is the count
-* d is the motion, in this case delete
-* m is the motion, in this case word
-* cdw will delete c number of words
+## Openening lines
+* o -> create a new line below the current and switch to insert mode
+* O -> create a new line above the current and switch to insert mode
 
-Sample - The quick brown fox jumped over the lazy dog.
-Fix Me - The quick quick quick brown fox jumped over the lazy lazy lazy dog.
+Type the sentence between the examples.
 
-## Jumping to a specific line in the file
-* 1G -> jump to line 1 of the file
-* 5G -> jump to line 5 of the file
-
-Practice jumping around various lines of the file
-
-## Jumping to the first line of a file
-* gg -> jump to the first line of the file
-
-## Jumping to the last line of a file
-* G -> jump to the last line of the file 
+Sample -
+The quick brown fox jumped over the lazy dog.
+Sample -
+The quick brown fox jumped over the lazy dog.
 
 ## Replace
 * rx -> replace the character at the cursor with x
@@ -203,26 +216,29 @@ Fix Me - Tha qubck brcwn fdx eumped fver thg hazy dig.
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - Tha quiaa browa faa jumpaa ovaa taa laaa doaa
 
-## Matching pairs
-* % -> jumped to the matching character
-* works for ) ] }
 
-( Here is a [sample] of {what you can do} )
 
-## Visual mode
+# Visual Mode
 * v -> enter visual mode which allows selection
-* y -> copy the selected text
-* p -> put copied text
+
+## Basic selection
+* use any movement key to select the needed text
+* y -> copy the selection with the yank command
+* p -> paste the selection with the put command 
 
 Sample - The word is repeated 3 times times times
 Fix Me - The word is repeated 3 times
 
-## Open
-* o -> create a new line below the current and switch to insert mode
 
-Type the sentence between the examples.
 
-Sample -
-The quick brown fox jumped over the lazy dog.
-Sample -
-The quick brown fox jumped over the lazy dog.
+# Enahcing Commands
+
+## Adding a count to a motion
+* c d w
+* c is the count
+* d is the motion, in this case delete
+* m is the motion, in this case word
+* cdw will delete c number of words
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick quick quick brown fox jumped over the lazy lazy lazy dog.
