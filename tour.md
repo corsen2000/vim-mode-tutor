@@ -1,12 +1,26 @@
 # Welcome To Vim Mode Tutor
-There are 2 modes in Vim.  Insert mode is your normal editor.  Command mode is
-entered by hitting the escape key.  When in command mode the cursor will change
-and many key strokes have new meaning.  The exercises that follow always assume
-that you are starting in command mode.  Hit escape at any time to enter command
-mode.  Hitting escape when already in command mode will cancel any started 
-command and leave you in a fresh command mode.
+Vim is a powerful and popular editor.  It so popular that many other editors
+have a vim mode.  Vim mode is a subset of vim and allows you to integrate the 
+power of vim with the abilities of the other editor. This tour teaches and helps
+you practice using the features of vim that are often found in the vim mode of
+other editors.
+
+## 3 modes of vim
+* command mode - used to enter commands and navigate a file
+  * [escape] - enter command mode with the escape key
+* insertion mode - used to enter text
+  * i - enter insertion mode (from command mode) at the cursor location
+  * etc... - there are many other ways to enter insertion mode
+* visual mode - used to select text
+  * v - enter visual mode
+  * movement commands will now select text
+  * other commands will oeprate on the selected text
+  * new commands will be available in this mode
 
 # Movement (Section 1)
+
+Everything in this section can be done without leaving command mode.  If you
+are not in command mode, you can enter it by pressing escape.
 
 ## Basic movement
 * h -> left
