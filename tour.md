@@ -131,14 +131,6 @@ Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick brown fox
 
-Arrange the lines by deleting and putting.
-
-1) First Line
-4) Forth Line
-2) Second Line
-5) Fifth Line
-3) Third Line
-
 ## Line operations
 
 Doubling a command will often apply that command to the entire line.
@@ -170,9 +162,15 @@ Fix Me:
 
 Three times a line.
          
-         
+Arrange the lines by deleting and putting.
 
+1) First Line
+4) Forth Line
+2) Second Line
+5) Fifth Line
+3) Third Line
 
+        
 
 # Entering Insert Mode (Section 3)
 
