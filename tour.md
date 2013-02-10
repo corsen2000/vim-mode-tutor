@@ -262,7 +262,7 @@ This is a regular sentence, but it has some style.
 
 
 
-# Enahcing Commands
+# Enhancing Commands
 
 ## Adding a count to a motion
 * c d w
