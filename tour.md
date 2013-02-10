@@ -72,6 +72,8 @@ Try moving through this sentence and check-out the difference in e and E.
 * b -> move to the beginning of the previous word
 * B -> move to the beginning of the previous word ignoring non space characters
 
+Try moving through this sentence and check-out the difference in b and B.
+
 ## Jumping to a specific line in the file
 * 1G -> jump to line 1 of the file
 * 5G -> jump to line 5 of the file
