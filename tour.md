@@ -239,6 +239,20 @@ Fix Me - The word is repeated 3 times
 This is a regular sentence, but it has some style.
 
 ## Pair selection
+* i{ -> selects everything between 2 matching braces
+* i} -> selects anything between 2 matching braces
+* i" -> selects anything between 2 matching quotes
+* this pattern can be applied to any pair
+
+* a{ -> selects anything between 2 matching braces including the braces
+* this pattern can be applied to any pair
+
+{
+  try it and see
+}
+
+" and it works with quotes as well "
+
 
 
 # Enahcing Commands
