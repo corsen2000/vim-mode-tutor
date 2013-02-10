@@ -96,6 +96,9 @@ Practice jumping around various lines of the file
 
 # Editing (Section 2)
 
+Everything in this section can be done without leaving command mode.  If you
+are not in command mode, you can enter it by pressing escape.
+
 ## Character deletion
 * x -> delete character at the cursor
 * X -> delete the character before the cursor (backspace)
@@ -164,7 +167,7 @@ Three times a line.
 Three times a line.
 
 Fix Me:
- 
+
 Three times a line.
          
          
