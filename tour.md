@@ -270,6 +270,7 @@ This is a regular sentence, but it has some style.
 * d is the motion, in this case delete
 * m is the motion, in this case word
 * cdw will delete c number of words
+* this pattern can be applied to many commands
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick quick quick brown fox jumped over the lazy lazy lazy dog.
