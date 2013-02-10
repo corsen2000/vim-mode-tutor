@@ -186,7 +186,7 @@ Fix the end of the follow line first, then the beginning.
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me -
-brown fox jumped over
+brown fox jumped over the lazy dog.
 
 ## Appending
 * a -> start insertion after the cursor location
