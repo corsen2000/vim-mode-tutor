@@ -42,9 +42,9 @@ start
                                        End
 
 ## Moving vertically
-* H -> top of the screen
-* M -> middle of the screen
-* L -> bottom of the screen
+* H -> top of the screen (high)
+* M -> middle of the screen (middle)
+* L -> bottom of the screen (low)
 
 Try using these commands to move around the screen.  Keep in mind these commands
 move around the current visible screen area, not the file.
