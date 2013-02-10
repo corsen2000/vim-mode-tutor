@@ -118,12 +118,6 @@ Fix Me - The quick quick brown fox fox jumped over the the lazy lazy dog.
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
 
-Sample - The quick brown fox jumped over the lazy dog.
-Fix Me - The quick quick brown fox fox jumped over the the lazy lazy dog.
-
-Sample - The quick brown fox jumped over the lazy dog.
-Fix Me - The quick brown fox jumped over the lazy dog. the lazy dog. the lazy.
-
 ## Yank and put
 * y -> copy from the cursor to the new position given by the next command
   * yw -> copy from the cursor to the beginning of the next word
