@@ -184,8 +184,6 @@ Arrange the lines by deleting and putting.
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - Te quic bron fo jumpe oer te azy og.
 
-Fix the end of the follow line first, then the beginning.
-
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me -
 brown fox jumped over the lazy dog.
