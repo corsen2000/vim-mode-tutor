@@ -5,6 +5,7 @@ A collection of exercises to help learn vim commands commonly found in vim mode 
 
 * tour.md - A exercise set that touches on each command briefly.
 	* Sublime Text 3 Vintage Mode
+	* Intellij IdeaVim
 
 Resources / Inspiration
 -----------------------
