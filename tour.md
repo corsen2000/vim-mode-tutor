@@ -143,21 +143,31 @@ Doubling a command will often apply that command to the entire line.
 * dd -> deleting a line
 * yy -> copy a line
 
-Sample - This is a 
-         nice little
-         paragraph.
+Sample:
 
-Fix Me - This is a
-         intruder alert
-         nice little
-         intruder alert
-         paragraph.
+This is a 
+nice little
+paragraph.
 
-Sample - Three times a line.
-         Three times a line.
-         Three times a line.
+Fix Me:
 
-Fix Me - Three times a line.
+This is a
+intruder alert
+nice little
+intruder alert
+paragraph.
+
+Sample:
+
+Three times a line.
+Three times a line.
+Three times a line.
+
+Fix Me:
+ 
+Three times a line.
+         
+         
 
 
 
