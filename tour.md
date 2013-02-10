@@ -274,3 +274,18 @@ This is a regular sentence, but it has some style.
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick quick quick brown fox jumped over the lazy lazy lazy dog.
+
+# Extra commands
+
+There commands are not needed because your editor will have its own shortcuts
+but it may be easier to use the vim mode shortcut instead.
+
+## Undo
+
+* u -> undo the last action
+* usually just an alias to the editors basic undo command
+
+Fix the sentence and then undo it.
+
+Sample - The quick brown fox jumped over the lazy dog.
+Fix Me - The quick brown fox jumped over the lazy 
