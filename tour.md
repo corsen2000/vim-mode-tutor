@@ -7,7 +7,7 @@ found in the vim mode of other editors.
 
 ## 3 modes of vim
 * command mode - used to enter commands and navigate within a file
-  * [escape] - enter command mode with the escape key
+  * escape - enter command mode with the escape key
 * insertion mode - used to enter text
   * i - enter insertion mode (from command mode) at the cursor location
   * etc... - there are many other ways to enter insertion mode
