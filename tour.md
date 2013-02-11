@@ -289,3 +289,12 @@ Fix the sentence and then undo it.
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - The quick brown fox jumped over the lazy 
+
+## Bookmarks
+
+* ma -> create a bookmark 'a'
+* any single number or letter can be used
+* 'a -> return to the line where bookmark a is
+* `a -> return to the exact position where bookmark a is
+
+Pratice placing some bookmarks around this file.
