@@ -19,7 +19,7 @@ found in the vim mode of other editors.
 
 
 
-# Movement (Section 1)
+# Movement And Scrolling (Section 1)
 
 Everything in this section can be done without leaving command mode.  If you
 are not in command mode, you can enter it by pressing escape.
@@ -107,6 +107,10 @@ Practice jumping around various lines of the file
 
 ( Here is a [sample] of {what you can do} )
 
+## Scrolling the window
+* zt -> scroll the window such that the current line is at the top
+* zz -> scroll the window such that the current line is at the middle
+* zb -> scroll the window such that the current line is at the bottom
 
 
 # Editing (Section 2)
