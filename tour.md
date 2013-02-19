@@ -62,6 +62,17 @@ Try using these commands on the line below.
 
     This line will help try out the 0, ^ and $ commands.  
 
+## Jumping to a character on the line
+* f *char* -> jump to the next occurrence of char searching forward
+* F *char* -> jump to the next occurrence of char searching backward
+* t *char* -> jump right before the next occurrence of char searching forward
+* T *char* -> jump right after the next occurrence of char searching backward
+
+Try using these commands on the line below.
+
+  This line will help try out the f, F, t and T commands.
+
+
 ## Moving by words
 * w -> move to the beginning of the next word
 * W -> move to the beginning of the next word ignoring non-space character
