@@ -49,6 +49,10 @@ start
 Try using these commands to move around the screen.  Keep in mind these commands
 move around the current visible screen area, not the file.
 
+## Moving by paragraphs
+* { -> move up by paragraphs
+* } -> move down by paragraphs
+
 ## Moving horizontally
 * 0 -> start of the line
 * ^ -> first non-blank character of the line
