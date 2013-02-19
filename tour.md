@@ -233,12 +233,15 @@ Fix Me - Tha qubck brlwn fdx eumped fver thg hazy dig.
 
 ## Change
 * ce -> change until the end of the word
+* ci*pair-mark* -> change content within the pair mark
+* ca*pair-mark* -> change content within the pair mark including the pair mark
 * works with other motions as well
 
 Sample - The quick brown fox jumped over the lazy dog.
 Fix Me - Tha quiaa brola faa jumpaa ovaa taa laaa doaa
 
-
+Sample - { This is the correct text }
+Fix Me - { This is not the correct text }
 
 # Visual Mode
 * v -> enter visual mode which allows selection
