@@ -127,6 +127,7 @@ Fix Me - Thhe qquick broown foxx jumpedd ovver thee lazzy ddog..
   * dw -> delete from the cursor to the beginning of the next word
   * de -> delete from the cursor to the end of the next word
   * d$ -> delete from the cursor to the end of the line
+  * dj -> delete the current line and the line below
   * etc...
 * Delete the extra works
 
