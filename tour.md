@@ -105,7 +105,7 @@ Practice jumping around various lines of the file
 * % -> jumped to the matching character
 * works for ) ] }
 
-( Here is a [sample] of {what you can do} )
+( Here is a [sample]() of {what you can do} )
 
 ## Scrolling the window
 * zt -> scroll the window such that the current line is at the top
@@ -250,6 +250,8 @@ Fix Me - { This is not the correct text }
 
 # Visual Mode
 * v -> enter visual mode which allows selection
+* V -> enter visual line mode
+* gv -> select the last selection
 
 ## Basic selection
 * use any movement key to select the needed text
@@ -263,8 +265,7 @@ Fix Me - The word is repeated 3 times
 * iw -> inner word
 * aw -> the word such that a deletion will result in a single space between
 * iW -> inner word including any non-space character
-* aW -> the word including any non-space character such that a deletion will
-        result in a single space between
+* aW -> the word including any non-space character such that a deletion will result in a single space between
 
 This is a regular sentence, but it has some style.
 
