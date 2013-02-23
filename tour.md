@@ -5,6 +5,11 @@ power of vim with the abilities of the other editor. This tour teaches you how
 to use vim mode and helps you practice using the features of vim that are often
 found in the vim mode of other editors.
 
+This file is written in markdown and is best viewed in an editor that supports
+markdown syntax highlighting.  Because this is written in markdown some
+characters must be escaped with a backslash.  This does not occur often, but it
+is important to keep in mind when viewing commands.
+
 ## 3 modes of vim
 * command mode - used to enter commands and navigate within a file
   * escape - enter command mode with the escape key
@@ -319,6 +324,6 @@ Fix Me - The quick brown fox jumped over the lazy
 * ma -> create a bookmark 'a'
 * any single number or letter can be used
 * 'a -> return to the line where bookmark a is
-* `a -> return to the exact position where bookmark a is
+* \`a -> return to the exact position where bookmark a is
 
 Pratice placing some bookmarks around this file.
