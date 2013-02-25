@@ -137,6 +137,7 @@ Fix Me - Thhe qquick broown foxx jumpedd ovver thee lazzy ddog..
   * de -> delete from the cursor to the end of the next word
   * d$ -> delete from the cursor to the end of the line
   * dj -> delete the current line and the line below
+  * dit -> delete text within xml tags
   * etc...
 * Delete the extra works
 
@@ -245,6 +246,7 @@ Fix Me - Tha qubck brlwn fdx eumped fver thg hazy dig.
 * ce -> change until the end of the word
 * ci*pair-mark* -> change content within the pair mark
 * ca*pair-mark* -> change content within the pair mark including the pair mark
+* cit -> change content within xml tags
 * works with other motions as well
 
 Sample - The quick brown fox jumped over the lazy dog.
@@ -252,6 +254,9 @@ Fix Me - Tha quiaa brola faa jumpaa ovaa taa laaa doaa
 
 Sample - { This is the correct text }
 Fix Me - { This is not the correct text }
+
+Sample - <p>This tag looked good</p>
+Fix Me - <p>wrong, from the very start</p>
 
 # Visual Mode
 * v -> enter visual mode which allows selection
