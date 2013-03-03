@@ -198,7 +198,15 @@ Arrange the lines by deleting and putting.
 5) Fifth Line
 3) Third Line
 
+## Toggling case
+* gu*motion* -> lowercase
+* gU*motion* -> uppcase
+* g~*motion* -> togglecase
+* alternatively select textw ith visual mode, then use command without a motion
+
+You can PRACTICE some case TOGGLING, right here...
         
+ 
 
 # Entering Insert Mode (Section 3)
 
